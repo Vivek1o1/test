@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" >
+    <script  defer src="app.js"></script>
+    
+</head>
+<body>
+    <h2>Assignment</h2>
+    <p>Create a student enrolled form.</p>
+    <div class="form-container">
+        <form>  
+            <div class="input-container"> <label for="">Name</label>
+                <input class="name" required>
+            </div>
+            <div class="input-container"> <label for="">Email</label>
+                <input class="email" required>
+            </div>
+            <div class="input-container"> <label for="">Website</label>
+                <input class="website" required>
+            </div>
+            <div class="input-container"> <label for="">Image Link</label>
+                <input class="image-link" required>
+            </div>
+            <div class="Gender-input">
+                <div><label>Gender</label></div>
+                <div class="radio-buttons">
+                    <div><input  type="radio" class="male-button" value='male' name="radio">
+                        <label for="radio" >Male</label></div>
+                    <div><input type="radio" class="female-button" value="female" name="radio" >
+                        <label for="radio" >female  </label></div>
+                     
+                </div>
+
+            </div>
+            <div class="skills">
+                <div><label>Skills</label></div>
+                 <div>
+                    <input class="java" value="Java" type="checkbox">
+                    <label for="skills">Java</label>
+                 </div>
+                 <div>
+                    <input class="HTML"  value="HTML" type="checkbox">
+                    <label for="skills">HTML</label>
+                 </div>
+                 <div>
+                    <input class="css"  value="CSS" type="checkbox">
+                    <label for="skills" >CSS</label>
+                 </div>
+            </div>
+           
+            <div class="buttons">
+                <button type="button" class="enroll-student-button">Enroll student</button>
+                <button>Clear</button>
+            </div>
+        </form>
+        
+        <div class="enrolled-students"></div>
+        
+    </div>
+</body>
+</html>
