@@ -78,8 +78,9 @@ form{
     position: absolute;
     height: 150px;
     width: 150px;
-    background-image: url("https://images.unsplash.com/photo-1657299170935-31e068229885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
-    object-fit: contain;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/54/69/male-user-icon-vector-8865469.jpg");
+    background-repeat: no-repeat;
+  background-size: 150px 150px;
 }
 .student-details{
     width: 100%;
