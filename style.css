@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+form{
+   display: flex;
+   flex-direction: column;
+   border:1px solid black;
+   width: 50%;
+}
+.Gender-input{
+    display: flex;
+    border:1px solid black;
+    justify-content: space-around;
+    width: 50%;
+    margin:.5rem;
+}
+.radio-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    border:1px solid black;
+    width:70%;
+    margin:.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    padding:.5rem;
+}
+/* .buttons:first-child{
+    color:white;
+    background-color: blue;
+}
+.buttons:{
+    background-color: red;
+    color:rgb(20, 15, 15);
+} */
+.student-image{
+    width:150px;
+    height:150px;
+}
+.form-container{
+    display: flex;
+} 
+
+.input-container{
+    display: flex;
+    margin:.2rem;
+    width: 70%;
+    justify-content: space-between   ;
+}
+.input-container input{
+    border:1px solid black;
+}
+.student{
+    width: 100%;
+    border:1px solid black;
+}
+.student{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.student>*{
+    border:1px solid black;
+    
+}
+.student img:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: url("https://images.unsplash.com/photo-1657299170935-31e068229885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    object-fit: contain;
+}
+.student-details{
+    width: 100%;
+    /* background-color: red; */
+    padding-right: 14rem;
+    padding-left: .5rem;
+}
